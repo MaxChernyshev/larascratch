@@ -36,9 +36,9 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                    <a href="{{ route('admin.lardi') }}" class="nav-link active">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Users</p>
+                        <p>Lardi</p>
                     </a>
                 </li>
             </ul>

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\Admin\LardiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +19,6 @@ use App\Http\Controllers\Admin\AdminController;
 //Auth::routes();
 
 Route::get('/', [AdminController::class, 'index'])->name('panel');
+
+Route::get('/lardi', [LardiController::class, 'lardi'])->name('lardi');
+Route::get('/testlardi', [LardiController::class, 'testlardi'])->name('testlardi');
